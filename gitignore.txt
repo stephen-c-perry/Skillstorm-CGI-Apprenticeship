@@ -41,3 +41,4 @@ buildNumber.properties
 
 # other folders to ignore
 .metadata
+.code-workspace
