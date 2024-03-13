@@ -44,7 +44,7 @@ How much do you make a month? 1000000 [input prompt store as monthlyIncome]
 // You should save (your calculation here). [print netIncome * percentSave]
     System.out.printf("You should save: \n$%.2f\n", netIncome * (percentSave/100));
 
-    in.close(); //closing connection
+    in.close(); //release the memory resource that Java opened
     
     }
 }
