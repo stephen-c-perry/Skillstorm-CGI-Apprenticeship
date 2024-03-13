@@ -34,7 +34,7 @@ public class studentGrades {
         System.out.println("Enter in your overall project grade as a number between 0-100: ");
         projects = scanner.nextDouble();
 
-         // calculation
+        // calculation
         double weightedAssignments = assignments * .25;
         double weightedQuizzes = quizzes * .25;
         double weightedProjects = projects * .50;
