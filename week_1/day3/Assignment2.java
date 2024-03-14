@@ -1,3 +1,5 @@
+package week_1.day3;
+
 public class Assignment2 {
     
     /*

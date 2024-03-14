@@ -1,3 +1,5 @@
+package week_1.day3;
+
 import java.util.Scanner;
 
 public class studentGrades {
