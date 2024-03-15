@@ -45,7 +45,7 @@ public class DiceRollStep2 {
         System.out.println("Rolling...");
 
         //compare roll to guess, if equal win, if not equal try again
-        //Thread.sleep(3000); //anticipation builds
+        Thread.sleep(3000); //anticipation builds
         if (guess == roll) {
 
             //calculate payout 3/1 odds
@@ -56,6 +56,7 @@ public class DiceRollStep2 {
                         // %[argument_index$][flags][width][.precision]conversion
 
             System.out.printf("Congratulations! You won $%.2f%n", winnings);
+            System.out.printf("You now have $%.2f %n", (bankroll + winnings));
         }
             else {
                 System.out.printf("Sorry, you lost $%.2f%n", wager);
