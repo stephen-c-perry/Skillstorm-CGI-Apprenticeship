@@ -50,7 +50,7 @@ public class CompoundInterest {
 
     // %$.2f is a placeholder with the formatting you want and is replaced by the arguments you pass
 
-    System.out.printf("\nYour total paid is $%.2f and your total interest is $%.2f%n", totalPaid, totalInterest);
+    System.out.printf("\nYour total paid is %.2f and your total interest is %.2f", totalPaid, totalInterest);
 
     }
     
