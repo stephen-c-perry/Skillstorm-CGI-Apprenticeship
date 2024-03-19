@@ -27,14 +27,14 @@ public class PlayTennis {
         // prompt user
         System.out.println("Is it sunny, overcast, or raining?");
         String response = scanner.nextLine();
-        
+
         if (response.equalsIgnoreCase("sunny")) {
             System.out.println("Is the Humidity high?");
             String humidity = scanner.nextLine();
-            if (humidity.equalsIgnoreCase("yes")) {
-                return false;
-            }
-            return true;
+            // if (humidity.equalsIgnoreCase("yes")) {
+            // return false;
+            // }
+            return !(humidity.equalsIgnoreCase("yes"));
         }
 
         if (response.equalsIgnoreCase("overcast")) {
@@ -45,14 +45,14 @@ public class PlayTennis {
         if (response.contains("rain")) {
             System.out.println("Is it windy?");
             String wind = scanner.nextLine();
-            if (wind.equalsIgnoreCase("yes")) {
-                return false;
+            // if (wind.equalsIgnoreCase("yes")) {
+            // return false;
 
-            }
-            return true;
+            // }
+            return !(wind.equalsIgnoreCase("yes"));
 
         }
-            return false;
+        return false;
     }
-}
 
+}
