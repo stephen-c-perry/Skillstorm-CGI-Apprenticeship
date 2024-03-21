@@ -10,7 +10,7 @@ public class DailyAssignment {
          * An array with more than one element
          */
 
-        int[] multi = { 10, 20, 30, 40, 50 };
+        int[] multi = { 10, 50, 20, 40, 100 };
         int[] single = { 77 };
         int[] empty = {};
         int[] nulls = null;
@@ -31,14 +31,15 @@ public class DailyAssignment {
         } else
             for (int i = 0; i < arr.length; i++) {
                 if (arr[i] > maxValue) {
-                    // bug: prints each value in multiple element array
-                    // only want the element with the highest value
                     maxValue = arr[i];
-                    System.out.println("The max value is: " + maxValue);
+                    // System.out.println("The max value is: " + maxValue);
+                    // Had a bug here where each element was printing
+                    // moved sysout two levels outside
                     // return maxValue;
                 }
 
             }
+        System.out.println("The max value is: " + maxValue);
         return maxValue;
 
     }
