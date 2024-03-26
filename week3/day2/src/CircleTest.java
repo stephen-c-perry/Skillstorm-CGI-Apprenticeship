@@ -7,6 +7,9 @@ public class CircleTest {
          * (Note, the other circles' values should not have changed).
          */
 
+        Circle circle1 = new Circle(5.5);
+        Circle circle2 = new Circle(10.5);
+        
 
     }
 }
