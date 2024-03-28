@@ -1,4 +1,4 @@
-public class GasTank {
+public class GasTank implements Fillable {
 
     private final double GALLONS;
 
@@ -23,6 +23,30 @@ public class GasTank {
     public GasTank(double gALLONS, double gas) {
         GALLONS = gALLONS;
         this.gas = gas;
+    }
+
+    @Override
+    public void fill() {
+        gas = GALLONS;
+        throw new UnsupportedOperationException("Unimplemented method 'fill'");
+    }
+
+    @Override
+    public void empty() {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'empty'");
+    }
+
+    @Override
+    public void fill(double quantity) {
+        this.gas = quantity;
+        throw new UnsupportedOperationException("Unimplemented method 'fill'");
+    }
+
+    @Override
+    public void empty(double quantity) {
+        this.gas = quantity;
+        throw new UnsupportedOperationException("Unimplemented method 'empty'");
     }
 
     @Override

@@ -8,6 +8,4 @@ public interface Fillable {
 
     void empty(double quantity);
 
-    
-
 }
