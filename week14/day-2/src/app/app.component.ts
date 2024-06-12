@@ -14,15 +14,15 @@ export class AppComponent {
   title = 'day-2';
 }
 
-import {NgFor} from '@angular/common';
-...
-@Component({
-  standalone: true,
-...
-    NgFor, // <-- import into the component
-...
-  ],
-})
-export class AppComponent implements OnInit {
-...
-}
+// import {NgFor} from '@angular/common';
+// ...
+// @Component({
+//   standalone: true,
+// ...
+//     NgFor, // <-- import into the component
+// ...
+//   ],
+// })
+// export class AppComponent implements OnInit {
+// ...
+// }

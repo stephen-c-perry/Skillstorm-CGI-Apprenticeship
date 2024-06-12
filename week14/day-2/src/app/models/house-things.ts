@@ -1,8 +1,5 @@
-import { Component } from "@angular/core";
-
-@Component{
-
-[
+export const HouseThings = [
+    
     {
         "toy": "bike",
         "owner": "Johnny"
@@ -19,5 +16,4 @@ import { Component } from "@angular/core";
         "toy": "Skateboard",
         "owner": "Stephen"
     }
-]
-}
+];
